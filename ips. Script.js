@@ -1,0 +1,1 @@
+console.log("Website IPS 124 aktif!");

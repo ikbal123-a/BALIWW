@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 40px 10px;
+    background: linear-gradient(45deg, #00aaff, #0044ff);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background: #1a1a1a;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    margin-top: 20px;
+    border-top: 1px solid #222;
+}
